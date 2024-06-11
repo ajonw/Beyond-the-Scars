@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -52,20 +51,39 @@ public class Player_Controller : MonoBehaviour
         // If movement input is not 0, try to move
         if (_moveDir != Vector2.zero)
         {
-            // Check for potential collisions
-            int count = _rb.Cast(
-                _moveDir, // X and Y values between 1 and -1 that represents direction
-                _movementFilter, // The settings that determine where a collision can occur on, such as layers to collide with
-                _castCollisions, // List of collisions to store the found collisions into after the cast is finished
-                _moveSpeed * Time.fixedDeltaTime + _collisionOffset // The amount to cast equal to the movement plus an offset
-            );
+            bool move_successful = TryMove(_moveDir);
 
-            // If no collision, move
-            if (count == 0)
+            if (!move_successful)
             {
-                Vector2 move = _moveDir * _moveSpeed * Time.fixedDeltaTime;
-                _rb.MovePosition(_rb.position + move);
+                move_successful = TryMove(new Vector2(_moveDir.x, 0));
+                if (!move_successful)
+                {
+                    move_successful = TryMove(new Vector2(0, _moveDir.y));
+                }
             }
+        }
+    }
+
+    private bool TryMove(Vector2 direction)
+    {
+        // Check for potential collisions
+        int count = _rb.Cast(
+            direction, // X and Y values between 1 and -1 that represents direction
+            _movementFilter, // The settings that determine where a collision can occur on, such as layers to collide with
+            _castCollisions, // List of collisions to store the found collisions into after the cast is finished
+            _moveSpeed * Time.fixedDeltaTime + _collisionOffset // The amount to cast equal to the movement plus an offset
+        );
+
+        // If no collision, move
+        if (count == 0)
+        {
+            Vector2 move = direction * _moveSpeed * Time.fixedDeltaTime;
+            _rb.MovePosition(_rb.position + move);
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
     #endregion
