@@ -14,6 +14,7 @@ public class Player_Controller : MonoBehaviour
     [SerializeField] Rigidbody2D _rb;
 
     [SerializeField] ContactFilter2D _movementFilter;
+    [SerializeField] Animator _animator;
     #endregion
 
     #region Internal Data
@@ -26,6 +27,7 @@ public class Player_Controller : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
     #endregion
 
@@ -61,6 +63,8 @@ public class Player_Controller : MonoBehaviour
                     move_successful = TryMove(new Vector2(0, _moveDir.y));
                 }
             }
+
+            _animator.SetBool("isMoving", move_successful);
         }
     }
 
