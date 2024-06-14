@@ -64,7 +64,25 @@ public class Player_Controller : MonoBehaviour
                 }
             }
 
-            _animator.SetBool("isMoving", move_successful);
+            // If diagonal movement face player to left/right
+            if (_moveDir.x != 0 && _moveDir.y != 0)
+            {
+                _animator.SetFloat("X", _moveDir.x);
+                _animator.SetFloat("Y", 0);
+            }
+            // only set when an input move is provided otherwise keep original facing direction
+            else if (_moveDir.x != 0 || _moveDir.y != 0)
+            {
+                _animator.SetFloat("X", _moveDir.x);
+                _animator.SetFloat("Y", _moveDir.y);
+            }
+
+            // set isMoving true when moving
+            _animator.SetBool("isMoving", true);
+        }
+        else
+        {
+            _animator.SetBool("isMoving", false);
         }
     }
 

@@ -391,7 +391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: topDown_baseTiles_14
+      name: LeftSideIslandBorderWater
       rect:
         serializedVersion: 2
         x: 16
@@ -402,7 +402,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 2, y: 8}
+        - {x: 2, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: f72ddefa3768e4d79b9e6172f76e7411
@@ -6926,7 +6930,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: topDown_baseTiles_325
+      name: RightSideIslandBorderWater
       rect:
         serializedVersion: 2
         x: 288
@@ -6937,7 +6941,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -1, y: -8}
+        - {x: -1, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: 206ac0bc25bad434e8042e21967fdf3f
@@ -13027,6 +13035,7 @@ TextureImporter:
       Island_Top: 602067823
       Island_TopLeft: 527481389
       Island_TopRight: 557998641
+      LeftSideIslandBorderWater: -480185062
       Plant_1: -2136998283
       Plant_2: 1069268987
       Plant_3_A: -1093028147
@@ -13036,6 +13045,7 @@ TextureImporter:
       Plant_6: -710593235
       Plant_7: 742526677
       Plant_8: -1803021661
+      RightSideIslandBorderWater: -1999212409
       Water_Waves_A: 1214646678
       Water_Waves_B: -1994173702
       topDown_baseTiles_0: -1480664383
@@ -13084,7 +13094,6 @@ TextureImporter:
       topDown_baseTiles_137: -367369668
       topDown_baseTiles_138: 1182768586
       topDown_baseTiles_139: -1782283951
-      topDown_baseTiles_14: -480185062
       topDown_baseTiles_140: 1010025286
       topDown_baseTiles_141: -692591053
       topDown_baseTiles_142: 1264527889
@@ -13268,7 +13277,6 @@ TextureImporter:
       topDown_baseTiles_322: 1888786664
       topDown_baseTiles_323: 1008096218
       topDown_baseTiles_324: -300168547
-      topDown_baseTiles_325: -1999212409
       topDown_baseTiles_326: 1971979554
       topDown_baseTiles_327: 1928112627
       topDown_baseTiles_328: -371842622
