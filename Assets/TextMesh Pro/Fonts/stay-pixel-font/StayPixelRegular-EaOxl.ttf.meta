@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: faf38da3df61f479397723de8c46dd4f
+guid: 43b269c80f8ab4b39b3fd977e391640b
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - ArcadeClassic
+  - Stay Pixel
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
