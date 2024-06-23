@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hair 0
   m_EditorClassIdentifier: 
   characterPartName: Messy Short
-  characterPartAnimationID: 1
+  characterPartAnimationID: 0
   allCharacterPartAnimations:
   - {fileID: 7400000, guid: 6f09a82ec1266487e85d6decc8bb6961, type: 2}
   - {fileID: 7400000, guid: 77b24c708d6504f27995aaa7f38a3bd5, type: 2}

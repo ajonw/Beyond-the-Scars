@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Hair 1
   m_EditorClassIdentifier: 
   characterPartName: Long
-  characterPartAnimationID: 2
+  characterPartAnimationID: 1
   allCharacterPartAnimations: []

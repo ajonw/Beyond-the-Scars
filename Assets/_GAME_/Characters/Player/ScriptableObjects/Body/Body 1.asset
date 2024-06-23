@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Body 1
   m_EditorClassIdentifier: 
   characterPartName: Dark Skin
-  characterPartAnimationID: 2
+  characterPartAnimationID: 1
   allCharacterPartAnimations:
   - {fileID: 7400000, guid: 5a8dc406aabaa42f4a470bf69433d9f7, type: 2}
   - {fileID: 7400000, guid: 57ad6d4cd88584536b473ea6375d7846, type: 2}

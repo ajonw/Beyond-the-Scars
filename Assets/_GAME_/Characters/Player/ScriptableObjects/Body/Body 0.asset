@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Body 0
   m_EditorClassIdentifier: 
   characterPartName: Light Skin
-  characterPartAnimationID: 1
+  characterPartAnimationID: 0
   allCharacterPartAnimations:
   - {fileID: 7400000, guid: bb7f1ef46098b40dc8b094aad2cc9881, type: 2}
   - {fileID: 7400000, guid: 5de46dd1820c9475783b8059979df32c, type: 2}

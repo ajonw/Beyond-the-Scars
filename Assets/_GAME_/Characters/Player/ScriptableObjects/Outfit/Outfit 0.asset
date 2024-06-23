@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Outfit 0
   m_EditorClassIdentifier: 
   characterPartName: White Dress
-  characterPartAnimationID: 1
+  characterPartAnimationID: 0
   allCharacterPartAnimations:
   - {fileID: 7400000, guid: a9229399e37854981b901bf1d17056e7, type: 2}
   - {fileID: 7400000, guid: d332f49c5e90f4d7bba1ca582273b0e0, type: 2}
