@@ -1,4 +1,5 @@
 
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -87,8 +88,8 @@ public class CharacterPartsSelector : MonoBehaviour
 [System.Serializable]
 public class CharacterPartSelection
 {
-    public string bodyPartName;
+    public string characterPartName;
     public SO_CharacterPart[] characterPartOptions;
-    public Text characterPartNameTextComponent;
+    public TMP_Text characterPartNameTextComponent;
     [HideInInspector] public int characterPartCurrentIndex;
 }
