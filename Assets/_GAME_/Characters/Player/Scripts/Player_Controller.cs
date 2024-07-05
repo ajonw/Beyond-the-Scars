@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 [SelectionBase]
 public class Player_Controller : MonoBehaviour
 {
-    #region Editor Data
     [Header("Movement Attributes")]
     [SerializeField] public float _moveSpeed = 10f;
     [SerializeField] public float _collisionOffset = 0.05f;
@@ -15,39 +14,34 @@ public class Player_Controller : MonoBehaviour
 
     [SerializeField] ContactFilter2D _movementFilter;
     [SerializeField] Animator _animator;
-    #endregion
 
-    #region Internal Data
+    public LayerMask interactablesLayer;
+
+
+
     private Vector2 _moveDir = Vector2.zero;
     private List<RaycastHit2D> _castCollisions = new List<RaycastHit2D>();
-    #endregion
 
 
-    #region Start Logic
+
+
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
     }
-    #endregion
 
-
-    // For repeated tick functions 
-    #region Tick
     private void FixedUpdate()
     {
         MovementUpdate();
     }
-    #endregion
 
-    #region Input Logic
     private void OnMove(InputValue movementValue)
     {
         _moveDir = movementValue.Get<Vector2>();
     }
-    #endregion
 
-    #region Movement Logic
+
     private void MovementUpdate()
     {
         // If movement input is not 0, try to move
@@ -108,5 +102,4 @@ public class Player_Controller : MonoBehaviour
             return false;
         }
     }
-    #endregion
 }

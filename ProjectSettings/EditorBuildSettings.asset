@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_GAME_/Scenes/HomeTown.unity
+    path: Assets/_GAME_/Scenes/StartingScenes/IntroScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/_GAME_/Scenes/MainMenu.unity
+    path: Assets/_GAME_/Scenes/StartingScenes/MainMenu.unity
     guid: 37bf311afa6084af9b13461210ca9f75
   - enabled: 1
-    path: Assets/_GAME_/Scenes/CharacterCreator.unity
+    path: Assets/_GAME_/Scenes/StartingScenes/CharacterCreator.unity
     guid: 4160499b38e56482bbe53815cc055ae5
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/StartingScenes/IntroCutscene.unity
+    guid: 32cc51e7c7e68431798e598f4c66664c
   m_configObjects: {}

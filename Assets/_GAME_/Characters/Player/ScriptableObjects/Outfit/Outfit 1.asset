@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1220d91406dd4d649047d42559233f3, type: 3}
+  m_Name: Outfit 1
+  m_EditorClassIdentifier: 
+  characterPartName: Blue Top
+  characterPartAnimationID: 1
+  allCharacterPartAnimations:
+  - {fileID: 7400000, guid: b054bde574f204552ac84eaa3df34df2, type: 2}
+  - {fileID: 7400000, guid: c5ce3c9ea3bcc499293e896cb2b6ef8e, type: 2}
+  - {fileID: 7400000, guid: fc48fecdc671a4b7f837c22a95745f83, type: 2}
+  - {fileID: 7400000, guid: 89b91bce61fb84a41a3e97c9aa6f429c, type: 2}
+  - {fileID: 7400000, guid: cd1184624320849258501b1e00c820e4, type: 2}
+  - {fileID: 7400000, guid: 4cc201cff429e4882a23f4ce4fec4dac, type: 2}
+  - {fileID: 7400000, guid: f047928aeecba4137b2dd5164c054bdf, type: 2}
+  - {fileID: 7400000, guid: 073c6441d28f2478698c45865f8ea05c, type: 2}

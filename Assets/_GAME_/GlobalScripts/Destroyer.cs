@@ -12,7 +12,7 @@ public class Destroyer : MonoBehaviour
     {
         // Destroys backgroundMusic
         GameObject backgroundMusic = GameObject.Find("BackgroundMusic");
-        if (backgroundMusic)
+        if (backgroundMusic && backgroundMusic.scene.name == "DontDestroyOnLoad")
         {
             Destroy(backgroundMusic);
             backgroundMusic = null;
