@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_GAME_/Scenes/StartingScenes/IntroCutscene.unity
     guid: 32cc51e7c7e68431798e598f4c66664c
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/Act1-The Troubled Childhood/Scene1-Outdoor.unity
+    guid: e98721871f85c4e488c6864db85fc20e
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/Act1-The Troubled Childhood/Scene2-PlayerHome-FirstFloor.unity
+    guid: 59c3c9c668115460e85a8dec8f0659f6
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/Act1-The Troubled Childhood/Scene3-PlayerHome-SecondFloor.unity
+    guid: 983d8d19480944f1088c208f02e09a22
+  - enabled: 1
+    path: Assets/_GAME_/Scenes/Act1-The Troubled Childhood/Scene4-PlayerHome-PlayerRoom.unity
+    guid: d8c4dde0ef1034bfba8593a497aabde1
   m_configObjects: {}

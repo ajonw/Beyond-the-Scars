@@ -9,7 +9,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Camera
   - Water
   - UI
   - 
@@ -48,10 +48,7 @@ TagManager:
   - name: Ground
     uniqueID: 4263086287
     locked: 0
-  - name: Vegetation
-    uniqueID: 3740243343
-    locked: 0
-  - name: Character
+  - name: Collision
     uniqueID: 704096841
     locked: 0
   - name: UI
