@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 776af36a99e1c454a8d78a4bd774966c, type: 3}
   m_Name: SO_Companion
   m_EditorClassIdentifier: 
-  actorType: 1
+  actorType: 2
   actorName: Pickles
   actorPortrait: {fileID: -427120715, guid: 149aaf48b062a45e4bd61e654cae53f5, type: 3}

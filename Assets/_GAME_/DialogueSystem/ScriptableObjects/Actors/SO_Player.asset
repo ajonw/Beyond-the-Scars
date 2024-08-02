@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SO_Player
   m_EditorClassIdentifier: 
   actorType: 0
-  actorName: Alvin
+  actorName: Player
   actorPortrait: {fileID: 0}
