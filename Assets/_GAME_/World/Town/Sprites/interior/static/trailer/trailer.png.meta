@@ -1003,9 +1003,9 @@ TextureImporter:
       name: trailer_43
       rect:
         serializedVersion: 2
-        x: 272
-        y: 0
-        width: 15
+        x: 43
+        y: 1
+        width: 20
         height: 15
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1024,12 +1024,12 @@ TextureImporter:
       name: trailer_44
       rect:
         serializedVersion: 2
-        x: 592
+        x: 272
         y: 0
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

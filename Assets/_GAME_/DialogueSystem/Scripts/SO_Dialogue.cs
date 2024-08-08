@@ -18,6 +18,9 @@ public class SO_Dialogue : ScriptableObject
     [TextArea]
     public string[] dialogue;
 
+    [Header("Camera shake")]
+    public bool[] cameraShake;
+
     [Tooltip("Text on the options section")]
     [Header("Dialogue Options for Branch")]
     public string[] optionText;
@@ -31,5 +34,8 @@ public class SO_Dialogue : ScriptableObject
 
     [Header("Another Dialogue to Play")]
     public SO_Dialogue AnotherDialogue;
+
+    [Header("NextScene")]
+    public SceneField nextScene;
 
 }

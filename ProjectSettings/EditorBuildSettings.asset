@@ -34,6 +34,22 @@ EditorBuildSettings:
     guid: 11d9c5ceb5d7a4ce6812418d51a78a55
   - enabled: 1
     path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
-      Home/Scenes/Scene2 - Indoor Home.unity
+      Home/Scene 2 - Indoor Home/Scene/Scene2 - Indoor Home.unity
     guid: 4b741ea6ee24440308b188a7c84b8921
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
+      Home/Scene 3 - Player Room/Scene/Scene3 - PlayerRoom.unity
+    guid: ad18d0e3480524ddfa58d337a7d08143
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
+      Home/SAT-Exercises/SAT-Exercise1/Scenes/SAT-1.unity
+    guid: 1e3b3ced45a714e48844e902635c365a
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
+      Home/SAT-Exercises/SAT-Exercise1/Scenes/SAT-1 HugScene.unity
+    guid: d60b1369ffd924fc8b4cbf59975c3477
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
+      Home/Scene 4- Next Morning Player Room/Scene/Scene4 - PlayerRoomMorning.unity
+    guid: c87f7f0a2cfc941eb92616097c7c4006
   m_configObjects: {}

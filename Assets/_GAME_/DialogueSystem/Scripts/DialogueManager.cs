@@ -1,4 +1,5 @@
 using System.Collections;
+using Cinemachine;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -8,6 +9,18 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    public bool focusCamera = true;
+    //Level Loader
+    public LevelLoader levelLoader;
+    // Virtual camera
+    public CinemachineVirtualCamera _virtualCamera;
+    // Player transform
+    public Transform playerTransform;
+    // Actor Transforms
+    public Transform[] actorTransforms;
+    // Tranform types
+    public SO_Actor[] transformTypes;
+
     //Reward system
     public RewardSystem rewardSystem;
 
@@ -50,15 +63,61 @@ public class DialogueManager : MonoBehaviour
     private PlayerInput playerInput;
     private bool isOption = false;
 
-    public void temp()
+    //Camera Shake
+    private float shakeIntensity = 1f;
+    private float shakeTime = 0.5f;
+    private float timer;
+    CinemachineBasicMultiChannelPerlin _cbmcp;
+
+
+    public void ShakeCamera()
     {
-        Debug.Log("boogies");
+        _cbmcp.m_AmplitudeGain = shakeIntensity;
+        timer = shakeTime;
+    }
+    void StopShake()
+    {
+        _cbmcp.m_AmplitudeGain = 0;
+        timer = 0;
+    }
+
+    private void changeCameraFocus(bool recurringNPC)
+    {
+        if (!_virtualCamera)
+            return;
+        if (currentConversation.actors[stepNumber] == DialogueActors.Branch)
+        {
+            // If branch focus on player
+            _virtualCamera.Follow = playerTransform;
+        }
+        else if (recurringNPC)
+        {
+            // Find actor information for the current actor in coversation
+            for (int i = 0; i < transformTypes.Length; i++)
+            {
+                if (transformTypes[i].actorType == currentConversation.actors[stepNumber])
+                {
+                    _virtualCamera.Follow = actorTransforms[i];
+                }
+            }
+        }
+        // Random actor
+        else
+        {
+            _virtualCamera.Follow = playerTransform;
+        }
+
     }
 
     private void Start()
     {
+        if (_virtualCamera)
+            _cbmcp = _virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        if (_cbmcp)
+            StopShake();
         // Find Components
-        playerInput = GameObject.Find("Player").GetComponent<PlayerInput>();
+        if (GameObject.Find("Player"))
+            playerInput = GameObject.Find("Player").GetComponent<PlayerInput>();
         dialogueCanvas = GameObject.Find("DialogueCanvas");
         playerDialogueBox = GameObject.Find("PlayerDialogueBox");
         npcDialogueBox = GameObject.Find("NPCDialogueBox");
@@ -104,12 +163,22 @@ public class DialogueManager : MonoBehaviour
             else
                 PlayDialogue();
         }
+
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+            {
+                StopShake();
+            }
+        }
     }
 
     private void PlayDialogue()
     {
         // Disable player movement when dialogue is playing
-        playerInput.enabled = false;
+        if (playerInput)
+            playerInput.enabled = false;
 
         // If current dialogue actor is "OtherDialogue" then change the current conversation to that otherdialogue
         if (currentConversation.actors[stepNumber] == DialogueActors.OtherDialogue)
@@ -120,11 +189,18 @@ public class DialogueManager : MonoBehaviour
 
         //If its random NPC
         if (currentConversation.actors[stepNumber] == DialogueActors.Random)
+        {
             SetActorInfo(false);
+            if(focusCamera)
+                changeCameraFocus(false);
+        }
         //If its a recurring NPC
         else
+        {
             SetActorInfo(true);
-
+            if(focusCamera)
+                changeCameraFocus(true);
+        }
         // Turn on main dialogue canvas.
         dialogueCanvas.SetActive(true);
 
@@ -155,6 +231,14 @@ public class DialogueManager : MonoBehaviour
             dialogueOptionsBox.SetActive(false);
         }
 
+        //Camera shake
+        if (currentConversation && stepNumber < currentConversation.cameraShake.Length)
+        {
+            if (currentConversation.cameraShake[stepNumber] == true)
+            {
+                ShakeCamera();
+            }
+        }
         // Set current actor name and portrait
         actorName.text = currentSpeaker;
         actorPortrait.sprite = currentPortrait;
@@ -268,7 +352,8 @@ public class DialogueManager : MonoBehaviour
     // End dilogue, resets step number to 0, retracts dialogue canvas and enables player movement.
     public void EndDialogue()
     {
-        playerInput.enabled = true;
+        if (playerInput)
+            playerInput.enabled = true;
         //Reset index 
         stepNumber = 0;
         dialogueActivated = false;
@@ -276,6 +361,13 @@ public class DialogueManager : MonoBehaviour
         if (!dialogueCanvas.IsDestroyed())
         {
             dialogueCanvas.SetActive(false);
+        }
+        if (_virtualCamera && focusCamera)
+            _virtualCamera.Follow = playerTransform;
+
+        if (currentConversation.nextScene.isEmpty())
+        {
+            levelLoader.LoadNextLevel(currentConversation.nextScene);
         }
     }
 
@@ -369,7 +461,12 @@ public class DialogueManager : MonoBehaviour
     {
         return dialogueActivated;
     }
+
+
+
 }
+
+
 
 //Types of actors
 public enum DialogueActors
@@ -377,6 +474,7 @@ public enum DialogueActors
     Player,
     ChildPlayer,
     Companion,
+    Mother,
     Random,
     Branch,
     OtherDialogue,

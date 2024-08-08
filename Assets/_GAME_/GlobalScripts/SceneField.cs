@@ -22,6 +22,18 @@ public class SceneField
     {
         return sceneField.SceneName;
     }
+
+    public bool isEmpty()
+    {
+        if (m_SceneName == "")
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }
 
 #if UNITY_EDITOR
