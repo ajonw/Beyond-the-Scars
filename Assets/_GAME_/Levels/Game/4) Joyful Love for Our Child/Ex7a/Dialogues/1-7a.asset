@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 1-7a
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 02000000020000000200000002000000020000000200000002000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Welcome to exercise 7, this exercise will be separated into two parts and they
+    both incorporates activities from previous exercises
+  - The first part, exercise 7a is about maintaing a loving relationship with the
+    child
+  - Click on the photo button on the top right section of the screen to observe your
+    happy childhood photo
+  - "Then choose some short phrase, like, \u201CYou are my beautiful child\u201D
+    or \u201CMy love\u201D"
+  - Now, as you look at the photo say it slowly and out loud at least 5 times.
+  - Then sing your favourite chosen love song at least 5 times.
+  - Once you are done come talk to me again to begin the second part of the exercise
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 5 - Ending
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 0000000000000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - I had such a great time today
+  - I get to better connect with my child self through fun activities
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 102900000, guid: fffdef6bf4f874fd59f2bde231e06c1b, type: 3}
+    m_SceneName: BaseSceneEx2

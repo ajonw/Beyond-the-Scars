@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_GAME_/Levels/2. Opening/Scenes/IntroScene.unity
+    path: Assets/_GAME_/Levels/Game/1) Introduction to SAT/Scenes/IntroScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/_GAME_/Levels/1. MainMenu/Scenes/MainMenu.unity
+    path: Assets/_GAME_/Levels/MainMenu/Scenes/MainMenu.unity
     guid: 37bf311afa6084af9b13461210ca9f75
   - enabled: 1
-    path: Assets/_GAME_/Levels/2. Opening/Scenes/CharacterCreator.unity
+    path: Assets/_GAME_/Levels/OtherScenes/OldScenes/CharacterCreator.unity
     guid: 4160499b38e56482bbe53815cc055ae5
   - enabled: 1
-    path: Assets/_GAME_/Levels/2. Opening/Scenes/IntroCutscene.unity
+    path: Assets/_GAME_/Levels/OtherScenes/OldScenes/IntroCutscene.unity
     guid: 32cc51e7c7e68431798e598f4c66664c
   - enabled: 1
     path: Assets/_GAME_/Levels/OtherScenes/OldScenes/Scene1-Outdoor.unity
@@ -33,23 +33,176 @@ EditorBuildSettings:
     path: Assets/_GAME_/Levels/OtherScenes/PersistentGameplay.unity
     guid: 11d9c5ceb5d7a4ce6812418d51a78a55
   - enabled: 1
-    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
-      Home/Scene 2 - Indoor Home/Scene/Scene2 - Indoor Home.unity
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/NegativeMemories/1. The Neglectful Home/Scene 2 - Indoor
+      Home/Scene/Scene2 - Indoor Home.unity
     guid: 4b741ea6ee24440308b188a7c84b8921
   - enabled: 1
-    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
-      Home/Scene 3 - Player Room/Scene/Scene3 - PlayerRoom.unity
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/NegativeMemories/1. The Neglectful Home/Scene 3 - Player
+      Room/Scene/Scene3 - PlayerRoom.unity
     guid: ad18d0e3480524ddfa58d337a7d08143
   - enabled: 1
-    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
-      Home/SAT-Exercises/SAT-Exercise1/Scenes/SAT-1.unity
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/NegativeMemories/1. The Neglectful Home/Scene 4 - Player
+      Room Activity/SAT-Activity/Scenes/SAT-1.unity
     guid: 1e3b3ced45a714e48844e902635c365a
   - enabled: 1
-    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
-      Home/SAT-Exercises/SAT-Exercise1/Scenes/SAT-1 HugScene.unity
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/NegativeMemories/1. The Neglectful Home/Scene 4 - Player
+      Room Activity/SAT-Activity/Scenes/SAT-1 HugScene.unity
     guid: d60b1369ffd924fc8b4cbf59975c3477
   - enabled: 1
-    path: Assets/_GAME_/Levels/Act1-The Troubled Childhood/Sections/1. The Neglectful
-      Home/Scene 4- Next Morning Player Room/Scene/Scene4 - PlayerRoomMorning.unity
+    path: Assets/_GAME_/Levels/Game/6) Overcoming PastPain/Scene 1 - Player Room/Scene/Scene1
+      - PlayerRoomMorning.unity
     guid: c87f7f0a2cfc941eb92616097c7c4006
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/NegativeMemories/1. The Neglectful Home/Scene 5- Next Morning
+      Outdoor/Scene/Scene5 - MorningOutsideHome.unity
+    guid: 86b3a6c858db64934ada362ac5beaada
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
+      - Activites with Child/2.1 Happy Activites/Scene 1 - GameLobby/Scene/Scene
+      1 - GameLobby.unity
+    guid: ce379eda7f3d4488ababe7d01d667877
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
+      - Activites with Child/2.1 Happy Activites/Scene 4 - DanceMiniGame/Scene/Scene
+      4 - DanceMiniGame.unity
+    guid: d86760434a55f4d71897d66a62e62c41
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/NegativeMemories/1. The Neglectful Home/Scene 1 - Home(NightRain)/Scene/Scene1
+      - Home (NightRain).unity
+    guid: 9c74df2e33c9148eaa237125f8ae0184
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/StartingBase/Scenes/BaseSceneEx1.unity
+    guid: 842e512c872964d179ce2fb437c0e316
+  - enabled: 0
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/StartingBase/Scenes/BaseSceneEx1PersistentScene.unity
+    guid: ff27ef0dee12143bdb9cee3cd1afafe3
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/PositiveMemories/Scene 3 - Inside Classroom/Scene/Scene3
+      - Inside Classroom.unity
+    guid: f45f52e1366ef46729c92aba7dbc9faf
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/PositiveMemories/Scene 2 - Inside School/Scene/Scene2 -
+      Inside School.unity
+    guid: 2f3948cb7b2b344c59b59cf611bcb0fd
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/PositiveMemories/Scene 1 - Outside of school/Scene/Scene1
+      - Outside School.unity
+    guid: fddc6859a8b7f4040a5b51d78624dc08
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
+      - Childhood Photos/PositiveMemories/Scene 4 - Basketball Court/Scene/Scene
+      4 - Basketball Court.unity
+    guid: 51cd1850fa6da478c8c748f9575010c4
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
+      - Activites with Child/StartingBase/Scenes/BaseSceneEx2.unity
+    guid: fffdef6bf4f874fd59f2bde231e06c1b
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
+      - Activites with Child/2.1 Happy Activites/Scene 2 - Embrace Child/Scene/Scene
+      2 - Embrace Child.unity
+    guid: 6ca864b73bb0d4c089efffda36b16234
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
+      - Activites with Child/2.1 Happy Activites/Scene 3 - Play Child/Scene/Scene
+      3 - Play Child.unity
+    guid: b49d4e21798b14a0ba087f930d22e58c
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
+      - Activites with Child/2.2 Unhappy Activities/Scene 3 - Final Unhappy/Scene/Scene
+      3 - Final Unhappy.unity
+    guid: 84788b5feb0394ea8a4ea0abcad875dd
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
+      - Activites with Child/2.2 Unhappy Activities/Scene 2 - Embrace/Scene 2 - Embrace/Scene
+      2 - Embrace.unity
+    guid: 2547f0abc58154c3ab9eb0d526b072a6
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Ex3 - Singing Song of Affection/Scene/Scene 1 - Singing Song of Affection.unity
+    guid: ebbb3cc4bd1ce42eb9415529ea6c3f68
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Ex4 - Express Love/Scene/Scene 1 - Express Love.unity
+    guid: 606ec3f692a5149eabd5672c4f3041ee
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Base/Scene/BaseScenePart3.unity
+    guid: 9daaa263890c4454ba766dce6462e8a7
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Ex6 - Restoring world/Scene-1 Derelict Home Outside/Scene/Scene1
+      - Derelict Home Outside.unity
+    guid: c29df2cd1b7b44581810f07dba8da777
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Ex6 - Restoring world/Scene-2 Derelict Inside Home/Scene/Scene2 -
+      Derelict Inside Home.unity
+    guid: 0f81f2f4c37c0407a99d1cd91d96ce86
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Ex6 - Restoring world/Scene-3 Basement/Scene/Scene3-Basement.unity
+    guid: f9408dbc135dd409284726ca575db37a
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Ex6 - Restoring world/Scene5-NewOutsideHome/Scene/Scene5-NewOutsideHome.unity
+    guid: c2da3623f5f7e4156968b59223d82269
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Ex6 - Restoring world/Scene4-NewInsideHome/Scene/Scene4-NewInsideHome.unity
+    guid: 58f48a840d0844a0f87317c80c835f77
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/4) Joyful Love for Our Child/Ex7a/Scene/Ex7.unity
+    guid: d33e4fade5f9c4655b9b48b2ca78493f
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/4) Joyful Love for Our Child/Ex8 - Enjoying nature/Scene/Ex8.unity
+    guid: f166e7d31d9fa4af2b44bd4bba1c3004
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/5) Current Negative Emotions/Base/Scene/Scene1-CurrentNegEmotionsBase.unity
+    guid: 4cbd5c39cd7bf40d5a48e9b608ca8ff1
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/6) Overcoming PastPain/Base/Scene/OvercomingPastPainBase.unity
+    guid: 136070a582fb54298b69b076a268139c
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/6) Overcoming PastPain/Scene4-Intervention/Scene/Scene4-Intervention.unity
+    guid: 42f86b4548bae4350a47e05b0ee36c71
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/5) Current Negative Emotions/BasementScene/Scene/Scene
+      2 -BasementComfortScene.unity
+    guid: b4df00b4d56cd4c9c96263765af18984
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/6) Overcoming PastPain/Scene 2 - InsideHomeConflict/Scene/Scene2
+      - IndoorHomeConflict.unity
+    guid: d713fec5f218449018ec703bfd3b74b4
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/6) Overcoming PastPain/Scene 3 - InsideHomeIntervention/Scene/Scene3
+      - InsideHomeIntervention.unity
+    guid: 0453bc9a79afa4e1781872353b606ac3
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/8) Laught off Setbacks/Scene/Scene1- Laught off
+      Setbacks.unity
+    guid: e52363ac9d9e64e798fc0605d0283edf
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/9) Socialising your child/Scene/Scene1-SocialisingYourChild.unity
+    guid: 2e0e0fa1fa4794309b6010f57c95a3f5
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/10) Beliefs and Affirmations/Scene/Scene1-Beliefs
+      and Affirmations.unity
+    guid: 2ed5e4399c9c3437da0dc40abcc24ab0
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
+      - Activites with Child/2.2 Unhappy Activities/Scene 1 - Unhappy Activity/Scene/Scene
+      1 - Unhappy Activity.unity
+    guid: 04cca50a3eeaa48539543b1209e6a075
   m_configObjects: {}

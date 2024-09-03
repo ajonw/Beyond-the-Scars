@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 1-IntroNegEmotion
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 0200000002000000020000000200000002000000020000000200000002000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Your task in this exercise is to project whatever negative emotions you are dealing
+    with right now, to your child self
+  - You then have to reassure your child self to overcome that emotion
+  - and at the same time give your face/neck/head a self-massage
+  - Repeat these steps until you are calmed and comforted.
+  - Go to the basement to begin the exercise
+  - Before starting, you will be given 3 options of negative emotions that you must
+    select to project to your child self
+  - Select one that best describes the negative emotion that you have been having
+    lately.
+  - When you are ready head to the basement
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

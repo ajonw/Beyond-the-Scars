@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 3-18
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 0200000002000000020000000200000002000000020000000200000005000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - For exercise 18, we aim to better plan more constructive actions
+  - Work out a new way to handle, in the future, what you have identified as acting
+    out anti-social feelings or bearing personal resentment in your life
+  - Without denying these feelings, try to reflect and contain them and avoid acting
+    them out. Try to let go of the personal resentment
+  - This may be hard and challenging but it is necessary for emotional growth. Here,
+    you are taking a critical but constructive stance towards your Child and are
+    exercising foresighted compassion.
+  - Find a positive way of re-channeling the aggressive energy invoked by these feelings
+    to productive work like going for some exercise or talking to a friend and ultimately
+    to creative work towards your noble goal in life
+  - Again please take your time
+  - Are you ready to move on?
+  cameraShake: 
+  optionText:
+  - Yes I am ready, please continue
+  - Not yet, can you please repeat that
+  optionPoints: 
+  option0: {fileID: 11400000, guid: eded7fe94209840daa9b63489dec3d98, type: 2}
+  option1: {fileID: 11400000}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

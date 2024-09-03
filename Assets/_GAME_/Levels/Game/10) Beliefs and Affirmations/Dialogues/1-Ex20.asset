@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 1-Ex20
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 02000000020000000200000002000000020000000200000002000000020000000200000005000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Exercise 10 is about updating our rigid beliefs to enhance creativity
+  - Challenge your usual ideological framework to weaken any one-sided belief patterns
+    and encourage spontaneity and examination of any issue from multiple perspectives
+  - Practice this with subjects or themes that you have deep-rooted beliefs about
+    and you are also interested in.
+  - This may include any social, political, or ethical issue, such as marriage, sexual
+    orientation or racism.
+  - For example, whatever your political viewpoint on a specific subject is, consider
+    the subject both from a liberal and conservative point of view
+  - Or from a left-wing and right-wing point of view and try to understand both sides
+    of the issue and challenge your dominant ideological framework.
+  - "This does not mean that you would change your viewpoint but it allows you to
+    see the subject from different perspectives and to be able to put yourself in
+    other people\u2019s shoes."
+  - Consider a different question or issue daily for at least 5 minutes.
+  - Take your time and let me know if you are ready to move on
+  cameraShake: 
+  optionText:
+  - I am ready to move on
+  - Can you repeat that
+  optionPoints: 
+  option0: {fileID: 11400000, guid: 5548ac34b47d84a80b4800f75b287f27, type: 2}
+  option1: {fileID: 11400000}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

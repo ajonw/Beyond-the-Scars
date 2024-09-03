@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 2-Ex21
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 020000000200000002000000020000000200000005000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - The final exercise, exercise 21, encourages you to practice affirmations
+  - Put together a list of inspirational affirmations by figures you admire
+  - Choose the three that inspire you most
+  - Read them out and repeat slowly for at least 3 minutes.
+  - Are you ready to wrap up the SAT therapy or do you need me to repeat that?
+  cameraShake: 
+  optionText:
+  - I am ready to wrap up
+  - Can you repeat that please?
+  optionPoints: 
+  option0: {fileID: 11400000, guid: 88923cedb67cc40b7a9902bc1b5d5294, type: 2}
+  option1: {fileID: 11400000}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

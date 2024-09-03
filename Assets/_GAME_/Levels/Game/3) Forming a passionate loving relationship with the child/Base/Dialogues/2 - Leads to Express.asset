@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 2 - Leads to Express
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 02000000020000000200000002000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - I hope you enjoyed the singing in the previous exercise
+  - The next exercise requires you to express love and care for the child through
+    speech
+  - So you would need to speak to the child in a loving manner
+  - Let's start!
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 102900000, guid: 606ec3f692a5149eabd5672c4f3041ee, type: 3}
+    m_SceneName: Scene 1 - Express Love

@@ -43,7 +43,7 @@ public class Player_Controller : MonoBehaviour
 
     private void FixedUpdate()
     {
-        MovementUpdate();
+        MovementUpdate(_moveDir);
     }
 
     private void OnMove(InputValue movementValue)
@@ -52,7 +52,7 @@ public class Player_Controller : MonoBehaviour
     }
 
 
-    private void MovementUpdate()
+    public void MovementUpdate(Vector2 _moveDir)
     {
         // If movement input is not 0, try to move
         if (_moveDir != Vector2.zero)

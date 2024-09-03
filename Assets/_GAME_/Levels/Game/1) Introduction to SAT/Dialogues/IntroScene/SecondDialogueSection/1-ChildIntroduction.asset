@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 1-ChildIntroduction
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 020000000100000000000000020000000000000002000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - 'and this right here is your childhood self. '
+  - Hi! It's nice to see you guys.
+  - Hi there!
+  - He is a younger version of you that acts as a representation of when you were
+    a child.
+  - I see.
+  - Now that you have an idea of what Self-Attachment Therapy is, let's begin with
+    the next stage of the game where you will connect compassionately with our child.
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 102900000, guid: 842e512c872964d179ce2fb437c0e316, type: 3}
+    m_SceneName: BaseSceneEx1

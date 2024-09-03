@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     //Level Loader
     public LevelLoader levelLoader;
     // Virtual camera
-    public CinemachineVirtualCamera _virtualCamera;
+    private CinemachineVirtualCamera _virtualCamera;
     // Player transform
     public Transform playerTransform;
     // Actor Transforms
@@ -23,6 +23,8 @@ public class DialogueManager : MonoBehaviour
 
     //Reward system
     public RewardSystem rewardSystem;
+
+    public NPCDialogue npcDialogue;
 
     // Current conversation dialogue object
     private SO_Dialogue currentConversation;
@@ -72,7 +74,8 @@ public class DialogueManager : MonoBehaviour
 
     public void ShakeCamera()
     {
-        _cbmcp.m_AmplitudeGain = shakeIntensity;
+        if (_cbmcp)
+            _cbmcp.m_AmplitudeGain = shakeIntensity;
         timer = shakeTime;
     }
     void StopShake()
@@ -111,6 +114,8 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
+        if (GameObject.Find("Virtual Camera"))
+            _virtualCamera = GameObject.Find("Virtual Camera").GetComponent<CinemachineVirtualCamera>();
         if (_virtualCamera)
             _cbmcp = _virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
         if (_cbmcp)
@@ -191,14 +196,14 @@ public class DialogueManager : MonoBehaviour
         if (currentConversation.actors[stepNumber] == DialogueActors.Random)
         {
             SetActorInfo(false);
-            if(focusCamera)
+            if (focusCamera)
                 changeCameraFocus(false);
         }
         //If its a recurring NPC
         else
         {
             SetActorInfo(true);
-            if(focusCamera)
+            if (focusCamera)
                 changeCameraFocus(true);
         }
         // Turn on main dialogue canvas.
@@ -207,14 +212,14 @@ public class DialogueManager : MonoBehaviour
         //Turn on appropriate canvas based on the current type of conversation
 
         // If current conversation actor is of Player type then, turn on player dialogue box
-        if (currentConversation.actors[stepNumber] == DialogueActors.Player)
-        {
-            playerDialogueBox.SetActive(true);
-            npcDialogueBox.SetActive(false);
-            dialogueOptionsBox.SetActive(false);
-        }
+        // if (currentConversation.actors[stepNumber] == DialogueActors.Player)
+        // {
+        //     playerDialogueBox.SetActive(true);
+        //     npcDialogueBox.SetActive(false);
+        //     dialogueOptionsBox.SetActive(false);
+        // }
         //If branch options, turn on options canvas
-        else if (currentConversation.actors[stepNumber] == DialogueActors.Branch)
+        if (currentConversation.actors[stepNumber] == DialogueActors.Branch)
         {
             isOption = true;
             dialogueOptionsBox.SetActive(true);
@@ -367,7 +372,13 @@ public class DialogueManager : MonoBehaviour
 
         if (currentConversation.nextScene.isEmpty())
         {
-            levelLoader.LoadNextLevel(currentConversation.nextScene);
+            if (levelLoader)
+                levelLoader.LoadNextLevel(currentConversation.nextScene);
+        }
+
+        if (npcDialogue)
+        {
+            npcDialogue.ResetDialogueInitiated();
         }
     }
 
@@ -419,8 +430,9 @@ public class DialogueManager : MonoBehaviour
     {
         isTyping = true;
 
-        TMP_Text currentDialogueText = (currentConversation.actors[stepNumber] == DialogueActors.Player) ?
-        playerDialogueText : npcDialogueText;
+        // TMP_Text currentDialogueText = (currentConversation.actors[stepNumber] == DialogueActors.Player) ?
+        // playerDialogueText : npcDialogueText;
+        TMP_Text currentDialogueText = npcDialogueText;
 
         currentDialogueText.text = "";
 
@@ -478,4 +490,10 @@ public enum DialogueActors
     Random,
     Branch,
     OtherDialogue,
+    Friend1,
+    Friend2,
+    Teacher,
+    Father,
+    Son,
+    Spouse
 };

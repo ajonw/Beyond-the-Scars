@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776af36a99e1c454a8d78a4bd774966c, type: 3}
+  m_Name: SO_Teacher
+  m_EditorClassIdentifier: 
+  actorType: 9
+  actorName: Teacher
+  actorPortrait: {fileID: 1471147122, guid: ed5407027684e473899e80883fbdcf93, type: 3}

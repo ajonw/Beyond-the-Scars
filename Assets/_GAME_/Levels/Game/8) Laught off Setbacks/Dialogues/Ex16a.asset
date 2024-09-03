@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: Ex16a
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 020000000200000002000000020000000200000002000000020000000200000002000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Now that you have learned to change you perspective let's move on to exercise
+    16 which is split into two parts
+  - Exercise 16 focuses on learning to be playful about your past pains
+  - In the first part, exercise 16a, try to visualise a painful event that took place
+    in the recent past that you have struggled with
+  - An example would be a traumatic childhood experience you had when you were younger
+  - 'Despite its painfulness, try to see a positive
+
+    impact it has had for you.'
+  - Maybe it had taught you a valuable lesson in becoming a stronger person or motivated
+    you to become a better parent
+  - Use any of the theories for humour and invite your child to be playful about
+    it and try to laugh at the event.
+  - Next for exercise 16b, try to repeat for a childhood pain you have endured for
+    a long time.
+  - Take as much time as you require and when you are ready to move on, continue
+    with the dialogue
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 102900000, guid: 2e0e0fa1fa4794309b6010f57c95a3f5, type: 3}
+    m_SceneName: Scene1-SocialisingYourChild

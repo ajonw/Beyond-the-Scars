@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 4-Yes
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 000000000200000002000000020000000200000002000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Yes, I am ready to move on
+  - Awesome!
+  - The second part of the exercise (7b) is called creating zest for life
+  - 'While looking in a mirror, imagine your image to be that of the child, then
+    begin to loudly sing your previously chosen song. As previously, increase
+
+    your
+    volume and begin to use your whole body.'
+  - You can do this exercise at your own time through out your day at different circumstance
+  - Singing your favourite song becomes a habit of yours, it becomes an effective
+    tool for enhancing positive affects and managing emotion
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

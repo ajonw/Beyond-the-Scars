@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SO_Player
   m_EditorClassIdentifier: 
   actorType: 0
-  actorName: Player
-  actorPortrait: {fileID: 0}
+  actorName: Kai (Adult)
+  actorPortrait: {fileID: -1632811085, guid: aa84f88ee50fe4070aa6ba72e3f6fe3c, type: 3}

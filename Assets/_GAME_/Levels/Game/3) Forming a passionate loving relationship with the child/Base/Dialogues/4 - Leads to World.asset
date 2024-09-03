@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 4 - Leads to World
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 02000000020000000200000002000000020000000200000002000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Now that you have completed the pledge, let's move on to the next exercise
+  - Having made the pledge, we will now restore our emotional world
+  - We do this by representing our emotional world as a home with derelict parts
+    that you will fully renovate.
+  - "The new home is intended to provide a safe haven at times of distress for the
+    child and a safe base for the child to tackle life\u2019s challenges"
+  - The new home and its garden is bright and sunny. We will carry out the remaining
+    self-attachment exercises in this environment.
+  - There is however, the unrestored basement of the new house which represents the
+    remnant of the derelict house and contains our negative emotions.
+  - When suffering negative emotions, imagine that the child is trapped in the basement
+    but can gradually learn to open the door of the basement, walk out and enter
+    the bright rooms, reuniting with the adult.
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

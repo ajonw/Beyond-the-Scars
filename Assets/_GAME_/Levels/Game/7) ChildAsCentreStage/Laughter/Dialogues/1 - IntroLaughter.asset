@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 1 - IntroLaughter
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 0200000002000000020000000200000006000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Well done on overcoming your past pain by invtervening for your childhood self
+    in the previous exercise
+  - The next few exercises emphasises on the importance of laughter.
+  - Laughter is an effective antidote to anxiety and depression, by causing secretion
+    of the euphoric neurotransmitters dopamine and serotonin.
+  - 'Exercises 11 to 14 focuses on laughter and so please let me know which one you
+    want to start with '
+  - 'I suggest doing it in a numerical order and you can choose the ones that you
+    want me to repeat multiple times '
+  - Once you have completed the exercises you can click on the continue button to
+    move on with the game
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 11400000, guid: 2f54a7602554d451b9d8e0f516f8d842, type: 2}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

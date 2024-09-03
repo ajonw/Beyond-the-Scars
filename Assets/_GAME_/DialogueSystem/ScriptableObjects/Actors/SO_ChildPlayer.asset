@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SO_ChildPlayer
   m_EditorClassIdentifier: 
   actorType: 1
-  actorName: Child-Self
+  actorName: Kai (Child)
   actorPortrait: {fileID: 1873321891, guid: 411063895ada14275be636f81a5041b0, type: 3}

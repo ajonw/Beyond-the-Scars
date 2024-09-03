@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 1 - Intro to part3 (Leads to Song)
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 020000000200000002000000020000000200000002000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Well done on making it this far
+  - In the previous exercise, we managed to build a compassionate bond to our childhood
+    self
+  - We did this by recalling childhood memories and learning to have compassion for
+    our child regardless of their emotions
+  - In this section our aim is to form a loving relationship with our childhood self
+  - We do this to create an emotional connection mirroring that which a goodparent
+    has for their children.
+  - Let's begin with the exercises!
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 102900000, guid: ebbb3cc4bd1ce42eb9415529ea6c3f68, type: 3}
+    m_SceneName: Scene 1 - Singing Song of Affection

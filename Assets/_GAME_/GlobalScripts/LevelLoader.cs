@@ -23,15 +23,34 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(LoadLevel(sceneName));
     }
 
+    public void LoadNextLevelAdditive(string sceneName)
+    {
+        StartCoroutine(LoadLevelAdditive(sceneName));
+    }
+
     IEnumerator LoadLevel(string sceneName)
     {
         // Play animation
-        transition.SetTrigger("Start");
+        transition.SetBool("Start", true);
 
         // Wait animation to stop
         yield return new WaitForSeconds(transitionTime);
 
         // Load scene
         SceneManager.LoadScene(sceneName);
+        transition.SetBool("Start", false);
+    }
+
+    IEnumerator LoadLevelAdditive(string sceneName)
+    {
+        // Play animation
+        transition.SetBool("Start", true);
+
+        // Wait animation to stop
+        yield return new WaitForSeconds(transitionTime);
+
+        // Load scene
+        SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+        transition.SetBool("Start", false);
     }
 }

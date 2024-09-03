@@ -6522,6 +6522,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: schoolTiles_2_306
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567b47e561d784702b79e59ede1fbd73
+      internalID: 1050451016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schoolTiles_2_307
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6492c25c1b4654fdf958ec54abb83b10
+      internalID: 1386091654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -6764,6 +6806,8 @@ TextureImporter:
       schoolTiles_2_303: 1259890464
       schoolTiles_2_304: 535564277
       schoolTiles_2_305: 535396599
+      schoolTiles_2_306: 1050451016
+      schoolTiles_2_307: 1386091654
       schoolTiles_2_31: 1686070689
       schoolTiles_2_32: -935245117
       schoolTiles_2_33: -1159124519

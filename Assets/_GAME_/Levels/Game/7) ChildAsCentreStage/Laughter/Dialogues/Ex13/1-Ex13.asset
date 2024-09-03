@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 1-Ex13
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 020000000200000006000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Exercise 13 is about laughing with our childhood self
+  - By looking at your happy photo/avatar, invite your child to smile and then begin
+    to laugh for at least 10 seconds. Repeat this process at least three times.
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 11400000, guid: 2f54a7602554d451b9d8e0f516f8d842, type: 2}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

@@ -6,9 +6,9 @@ using UnityEngine.InputSystem;
 public class EnterStairs : MonoBehaviour
 {
     [SerializeField] LevelLoader levelLoader;
-    [SerializeField] public string targetScene;
+    [SerializeField] public SceneField targetScene;
 
-    private AudioSource audioSource;
+    [SerializeField] public AudioSource audioSource;
     private bool changingScene;
 
     private PlayerInput playerInput;
