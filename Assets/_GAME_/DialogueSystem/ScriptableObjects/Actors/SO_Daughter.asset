@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776af36a99e1c454a8d78a4bd774966c, type: 3}
+  m_Name: SO_Daughter
+  m_EditorClassIdentifier: 
+  actorType: 11
+  actorName: Jane
+  actorPortrait: {fileID: -50286658, guid: 96c3d095c00204c15bc51fe51ae3cb88, type: 3}

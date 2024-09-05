@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 4.2-BadNoFood
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 000000000c000000000000000c00000000000000000000000c0000000c0000000b000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Are you kidding me? I just walked in after a 10-hour day, and there's not even
+    a meal on the table? What have you been doing all day!?
+  - "Kai, I\u2019ve been working too, you know. I didn\u2019t have time to cook.
+    I figured we could just order something."
+  - Order something? Seriously? We can't just keep throwing money away on takeout
+    every night! It's not that hard to throw something together before I get home
+  - "Not that hard? You think I\u2019ve been sitting around all day? I\u2019m just
+    as tired as you are, Kai. And it's not fair to expect me to handle everything
+    after work too"
+  - Oh, so now I'm the bad guy for wanting a decent
+  - Whatever, I guess I will be starving myself to bed tonight
+  - Sorry about that Kai, but please stop this, not infront of our daughter
+  - Jane, go and get you Dad some water
+  - Yes mother
+  cameraShake: 
+  optionText: []
+  optionPoints: 
+  option0: {fileID: 0}
+  option1: {fileID: 0}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 102900000, guid: 4c0b57e0c94c74e09821a0535001c8c8, type: 3}
+    m_SceneName: Scene1-WaterScene

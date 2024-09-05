@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
   m_Name: ReassuresChilhoodSelf
   m_EditorClassIdentifier: 
-  conversationPoints: 5
+  conversationPoints: 0
   actors: 00000000000000000100000001000000
   randomActorName: 
   randomActorPortrait: {fileID: 0}

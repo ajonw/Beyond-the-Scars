@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
@@ -51,14 +50,13 @@ public class ExpressLoveCutscene : MonoBehaviour
         Part3CompletionData.justCompletedPledge = false;
         Part3CompletionData.justCompletedRestoreEmotionalWorld = false;
         quitButton.SetActive(false);
-        speechRecognition.PrimeAPI();
     }
 
     private IEnumerator PlayCutscene()
     {
         _pc.enabled = false;
+        speechRecognition.PrimeAPI();
         yield return new WaitForSeconds(12f);
-
         LookRight(adultAnimator);
         LookLeft(companionAnimator);
         //Start dialogue

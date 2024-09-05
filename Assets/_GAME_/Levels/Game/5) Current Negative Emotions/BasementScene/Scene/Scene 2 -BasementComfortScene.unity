@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 136079092}
   - component: {fileID: 136079091}
   m_Layer: 5
-  m_Name: NamePanel
+  m_Name: SpeechPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1613,7 +1613,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   adultPlayer: {fileID: 931540870}
   childPlayer: {fileID: 1170890896}
-  centreScreen: {fileID: 0}
   comfortSession: {fileID: 782503074}
   speechRecognition: {fileID: 1791505262}
   dialogues: []
@@ -31251,7 +31250,7 @@ GameObject:
   - component: {fileID: 606751138}
   - component: {fileID: 606751137}
   m_Layer: 5
-  m_Name: CharacterPortrait
+  m_Name: SpeechCharacterPortrait
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112073,6 +112072,54 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &800774550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800774551}
+  - component: {fileID: 800774552}
+  m_Layer: 0
+  m_Name: Destroyer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &800774551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800774550}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1332208701}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &800774552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800774550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c095a7d5e68b47bca4a869593128fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyPrimaryMusic: 1
+  destroyPrimary2Music: 1
+  destroySecondaryMusic: 1
+  destroyTertiaryMusic: 1
 --- !u!1 &800988336
 GameObject:
   m_ObjectHideFlags: 0
@@ -112762,7 +112809,7 @@ GameObject:
   - component: {fileID: 874084759}
   - component: {fileID: 874084758}
   m_Layer: 5
-  m_Name: CharacterName
+  m_Name: SpeechCharacterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113632,7 +113679,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.4375
+  orthographic size: 8.046875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -116171,7 +116218,7 @@ GameObject:
   - component: {fileID: 1184656359}
   - component: {fileID: 1184656358}
   m_Layer: 5
-  m_Name: NPCDialogueText
+  m_Name: SpeechDialogueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116571,7 +116618,7 @@ MonoBehaviour:
   transformTypes:
   - {fileID: 11400000, guid: e5cefb3a5206b424bab92ee0db041353, type: 2}
   - {fileID: 11400000, guid: 51a3d40dde3854cb88f59f541f5f1e94, type: 2}
-  rewardSystem: {fileID: 0}
+  npcDialogue: {fileID: 0}
   actorsSO:
   - {fileID: 11400000, guid: 516a45c979f9c44a5bfff88a15b203c3, type: 2}
   - {fileID: 11400000, guid: 51a3d40dde3854cb88f59f541f5f1e94, type: 2}
@@ -117481,6 +117528,7 @@ Transform:
   - {fileID: 176393855}
   - {fileID: 1791505261}
   - {fileID: 782503073}
+  - {fileID: 800774551}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339601113
@@ -118019,7 +118067,7 @@ GameObject:
   - component: {fileID: 1390897910}
   - component: {fileID: 1390897909}
   m_Layer: 5
-  m_Name: DialogueBox
+  m_Name: SpeechDialogueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_GAME_/Levels/Game/1) Introduction to SAT/Scenes/IntroScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
     path: Assets/_GAME_/Levels/MainMenu/Scenes/MainMenu.unity
     guid: 37bf311afa6084af9b13461210ca9f75
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/1) Introduction to SAT/Scenes/IntroScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/_GAME_/Levels/OtherScenes/OldScenes/CharacterCreator.unity
     guid: 4160499b38e56482bbe53815cc055ae5
@@ -57,11 +57,6 @@ EditorBuildSettings:
       - PlayerRoomMorning.unity
     guid: c87f7f0a2cfc941eb92616097c7c4006
   - enabled: 1
-    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
-      - Childhood Photos/NegativeMemories/1. The Neglectful Home/Scene 5- Next Morning
-      Outdoor/Scene/Scene5 - MorningOutsideHome.unity
-    guid: 86b3a6c858db64934ada362ac5beaada
-  - enabled: 1
     path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise2
       - Activites with Child/2.1 Happy Activites/Scene 1 - GameLobby/Scene/Scene
       1 - GameLobby.unity
@@ -80,10 +75,6 @@ EditorBuildSettings:
     path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
       - Childhood Photos/StartingBase/Scenes/BaseSceneEx1.unity
     guid: 842e512c872964d179ce2fb437c0e316
-  - enabled: 0
-    path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
-      - Childhood Photos/StartingBase/Scenes/BaseSceneEx1PersistentScene.unity
-    guid: ff27ef0dee12143bdb9cee3cd1afafe3
   - enabled: 1
     path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
       - Childhood Photos/PositiveMemories/Scene 3 - Inside Classroom/Scene/Scene3
@@ -130,16 +121,16 @@ EditorBuildSettings:
     guid: 2547f0abc58154c3ab9eb0d526b072a6
   - enabled: 1
     path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
+      the child/Base/Scene/BaseScenePart3.unity
+    guid: 9daaa263890c4454ba766dce6462e8a7
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
       the child/Ex3 - Singing Song of Affection/Scene/Scene 1 - Singing Song of Affection.unity
     guid: ebbb3cc4bd1ce42eb9415529ea6c3f68
   - enabled: 1
     path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
       the child/Ex4 - Express Love/Scene/Scene 1 - Express Love.unity
     guid: 606ec3f692a5149eabd5672c4f3041ee
-  - enabled: 1
-    path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
-      the child/Base/Scene/BaseScenePart3.unity
-    guid: 9daaa263890c4454ba766dce6462e8a7
   - enabled: 1
     path: Assets/_GAME_/Levels/Game/3) Forming a passionate loving relationship with
       the child/Ex6 - Restoring world/Scene-1 Derelict Home Outside/Scene/Scene1
@@ -205,4 +196,22 @@ EditorBuildSettings:
       - Activites with Child/2.2 Unhappy Activities/Scene 1 - Unhappy Activity/Scene/Scene
       1 - Unhappy Activity.unity
     guid: 04cca50a3eeaa48539543b1209e6a075
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/7) ChildAsCentreStage/Laughter/Scene/LaughterSATExercisesScene.unity
+    guid: 21eb07cf26a0f4c2c9ca7eee391ad623
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/FinalActivities/1-HomeFromWork/Scenes/Scene1-HomeFromWork.unity
+    guid: 14c3fa941f11e48138fdd3f8abdda2ef
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/FinalActivities/2-HugScene/Scene/HugScene.unity
+    guid: fe2b131a5c695453aa2279e454805b33
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/FinalActivities/3-BringWater Scene/Scene/Scene1-WaterScene.unity
+    guid: 4c0b57e0c94c74e09821a0535001c8c8
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/FinalActivities/4-ChildLoved/Scene/Scene1-ChildLoved.unity
+    guid: 9b2ee1385ba0141ab85c8fffcf6ef53c
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/FinalActivities/5-ChildCrying/Scene/Scene1-ChildCrying.unity
+    guid: 8ec1a748106be489d88af47fd716b8d9
   m_configObjects: {}

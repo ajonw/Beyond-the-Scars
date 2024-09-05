@@ -1,22 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.SearchService;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
 public class Destroyer : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public bool destroyPrimaryMusic = true;
+    public bool destroyPrimary2Music = true;
+    public bool destroySecondaryMusic = true;
+    public bool destroyTertiaryMusic = true;
     void Awake()
     {
-        // Destroys backgroundMusic
-        GameObject backgroundMusic = GameObject.Find("BackgroundMusic");
-        if (backgroundMusic && backgroundMusic.scene.name == "DontDestroyOnLoad")
+
+        GameObject backgroundMusic;
+
+        if (destroyPrimaryMusic)
         {
-            Destroy(backgroundMusic);
-            backgroundMusic = null;
-            BackgroundMusic.backgroundMusic = null;
+            backgroundMusic = GameObject.Find("BGMusic");
+            if (backgroundMusic && backgroundMusic.scene.name == "DontDestroyOnLoad")
+            {
+                Destroy(backgroundMusic);
+                backgroundMusic = null;
+            }
+        }
+        if (destroyPrimary2Music)
+        {
+            backgroundMusic = GameObject.Find("BG1Music");
+            if (backgroundMusic && backgroundMusic.scene.name == "DontDestroyOnLoad")
+            {
+                Destroy(backgroundMusic);
+                backgroundMusic = null;
+            }
+        }
+        if (destroySecondaryMusic)
+        {
+            backgroundMusic = GameObject.Find("BG2Music");
+            if (backgroundMusic && backgroundMusic.scene.name == "DontDestroyOnLoad")
+            {
+                Destroy(backgroundMusic);
+                backgroundMusic = null;
+            }
+        }
+        if (destroyTertiaryMusic)
+        {
+            backgroundMusic = GameObject.Find("BG3Music");
+            if (backgroundMusic && backgroundMusic.scene.name == "DontDestroyOnLoad")
+            {
+                Destroy(backgroundMusic);
+                backgroundMusic = null;
+            }
         }
     }
 }

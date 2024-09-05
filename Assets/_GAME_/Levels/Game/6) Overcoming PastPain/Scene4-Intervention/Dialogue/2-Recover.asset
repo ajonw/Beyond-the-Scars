@@ -30,5 +30,5 @@ MonoBehaviour:
   option3: {fileID: 0}
   AnotherDialogue: {fileID: 0}
   nextScene:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: 
+    m_SceneAsset: {fileID: 102900000, guid: 21eb07cf26a0f4c2c9ca7eee391ad623, type: 3}
+    m_SceneName: LaughterSATExercisesScene

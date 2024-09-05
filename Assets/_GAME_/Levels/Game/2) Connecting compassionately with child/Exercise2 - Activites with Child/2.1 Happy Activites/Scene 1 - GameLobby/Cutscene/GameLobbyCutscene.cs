@@ -67,7 +67,6 @@ public class GameLobbyCutscene : MonoBehaviour
         }
     }
 
-
     private IEnumerator PlayEnding()
     {
         //Start character animation;

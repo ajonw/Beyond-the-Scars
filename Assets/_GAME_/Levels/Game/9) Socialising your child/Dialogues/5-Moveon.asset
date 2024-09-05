@@ -27,5 +27,5 @@ MonoBehaviour:
   option3: {fileID: 0}
   AnotherDialogue: {fileID: 0}
   nextScene:
-    m_SceneAsset: {fileID: 102900000, guid: 2e0e0fa1fa4794309b6010f57c95a3f5, type: 3}
-    m_SceneName: Scene1-SocialisingYourChild
+    m_SceneAsset: {fileID: 102900000, guid: 2ed5e4399c9c3437da0dc40abcc24ab0, type: 3}
+    m_SceneName: Scene1-Beliefs and Affirmations

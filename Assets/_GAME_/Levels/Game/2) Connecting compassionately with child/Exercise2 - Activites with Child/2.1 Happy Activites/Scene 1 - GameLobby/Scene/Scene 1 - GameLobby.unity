@@ -875,8 +875,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1820, y: 980}
+  m_AnchoredPosition: {x: 3.7700005, y: 24.36}
+  m_SizeDelta: {x: 2574.92, y: 1404.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &205579465
 Animator:
@@ -1397,6 +1397,7 @@ Transform:
   - {fileID: 2006604345}
   - {fileID: 552797637}
   - {fileID: 1970540638}
+  - {fileID: 1873260905}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389955499
@@ -2253,7 +2254,7 @@ PlayableDirector:
   - key: {fileID: -4177095899847882911, guid: c426f5a46c8fa4f339cf02fb64ef6daf, type: 2}
     value: {fileID: 1863683397}
   - key: {fileID: -3687284617326016315, guid: c426f5a46c8fa4f339cf02fb64ef6daf, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1249592751}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &492738779
@@ -8735,8 +8736,9 @@ GameObject:
   - component: {fileID: 1249592753}
   - component: {fileID: 1249592752}
   - component: {fileID: 1249592751}
+  - component: {fileID: 1249592754}
   m_Layer: 0
-  m_Name: BirdChirpAudio
+  m_Name: BG2Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8770,12 +8772,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249592750}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c38f31a4db4574e26a24b621a7014afc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 516efb1db7a744328b907eec9b2f0945, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.539
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8874,6 +8876,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1249592754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249592750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d414ba64cf881471bb76402b8d06b22d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1266115736
 GameObject:
   m_ObjectHideFlags: 0
@@ -9644,7 +9658,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.4375
+  orthographic size: 11.0625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -97985,6 +97999,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863683395}
   m_CullTransparentMesh: 1
+--- !u!1 &1873260904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873260905}
+  - component: {fileID: 1873260906}
+  m_Layer: 0
+  m_Name: Destroyer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1873260905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873260904}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 380799881}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1873260906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873260904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c095a7d5e68b47bca4a869593128fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyPrimaryMusic: 1
+  destroySecondaryMusic: 0
+  destroyTertiaryMusic: 0
 --- !u!1 &1886558289
 GameObject:
   m_ObjectHideFlags: 0
@@ -99328,7 +99389,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 51a3d40dde3854cb88f59f541f5f1e94, type: 2}
   - {fileID: 11400000, guid: 516a45c979f9c44a5bfff88a15b203c3, type: 2}
   - {fileID: 11400000, guid: e5cefb3a5206b424bab92ee0db041353, type: 2}
-  rewardSystem: {fileID: 0}
+  npcDialogue: {fileID: 0}
   actorsSO:
   - {fileID: 11400000, guid: 516a45c979f9c44a5bfff88a15b203c3, type: 2}
   - {fileID: 11400000, guid: 51a3d40dde3854cb88f59f541f5f1e94, type: 2}

@@ -31,5 +31,5 @@ MonoBehaviour:
   option3: {fileID: 0}
   AnotherDialogue: {fileID: 0}
   nextScene:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: 
+    m_SceneAsset: {fileID: 102900000, guid: 9daaa263890c4454ba766dce6462e8a7, type: 3}
+    m_SceneName: BaseScenePart3

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
@@ -7,13 +6,10 @@ public class EnjoyNatureCutscene : MonoBehaviour
 {
     [SerializeField] public GameObject adultPlayer;
     [SerializeField] public GameObject companion;
-    // [SerializeField] public GameObject companion;
     private Transform adultTransform;
     private Transform companionTransform;
-    // private Transform companionTransform;
     private Animator adultAnimator;
     private Animator companionAnimator;
-    // private Animator companionAnimator;
 
     [SerializeField] public SO_Dialogue[] dialogues;
 
@@ -27,8 +23,6 @@ public class EnjoyNatureCutscene : MonoBehaviour
     private Player_Controller _pc;
 
     private bool cutsceneStarted = false;
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -45,7 +39,7 @@ public class EnjoyNatureCutscene : MonoBehaviour
     private IEnumerator PlayCutscene()
     {
         _pc.enabled = false;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(11.5f);
         LookRight(adultAnimator);
         LookLeft(companionAnimator);
         yield return new WaitForSeconds(0.4f);

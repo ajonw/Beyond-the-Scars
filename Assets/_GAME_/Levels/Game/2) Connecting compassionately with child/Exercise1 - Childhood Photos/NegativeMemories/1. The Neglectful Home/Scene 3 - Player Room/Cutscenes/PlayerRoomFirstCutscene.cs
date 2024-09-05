@@ -1,6 +1,4 @@
 using System.Collections;
-using Cinemachine;
-using UnityEditor.SearchService;
 using UnityEngine;
 
 public class PlayerRoomFirstCutscene : MonoBehaviour

@@ -7,6 +7,8 @@ public class ResetAllStaticData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        RewardSystem.secureAttachmentLevel = 0;
+
         CompletionData.firstTime = true;
         CompletionData.completedHappyMemory = false;
         CompletionData.completedUnhappyMemory = false;
@@ -19,10 +21,16 @@ public class ResetAllStaticData : MonoBehaviour
         Ex2CompletionData.completedHappyActivity = false;
         Ex2CompletionData.completedUnhappyActivity = false;
 
-        HappyActivityCompletionData.firstTime = false;
+        HappyActivityCompletionData.firstTime = true;
         HappyActivityCompletionData.completedEmbrace = false;
         HappyActivityCompletionData.completedPlay = false;
         HappyActivityCompletionData.completedDance = false;
-        
+
+        Part3CompletionData.firstTime = true;
+        Part3CompletionData.justCompletedSong = false;
+        Part3CompletionData.justCompletedExpressLove = false;
+        Part3CompletionData.justCompletedPledge = false;
+        Part3CompletionData.justCompletedRestoreEmotionalWorld = false;
+
     }
 }

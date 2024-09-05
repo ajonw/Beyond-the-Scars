@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 2-Intro
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 0000000005000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - '**Amidst being tired I must choose the right thing to say**'
+  cameraShake: 
+  optionText:
+  - Honey I'm home
+  - '**Slam door**  Unbelievable!'
+  optionPoints: 
+  option0: {fileID: 11400000, guid: 2bcc6ce8cfd704bf1ab0fee0c0069abc, type: 2}
+  option1: {fileID: 11400000, guid: caf7444d787f3455f9cc1653bac829d7, type: 2}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

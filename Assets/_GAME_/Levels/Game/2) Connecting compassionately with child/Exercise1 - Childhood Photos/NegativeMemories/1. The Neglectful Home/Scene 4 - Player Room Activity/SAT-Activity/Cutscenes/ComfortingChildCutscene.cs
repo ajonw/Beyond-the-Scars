@@ -11,7 +11,6 @@ public class ComfortingChildCutscene : MonoBehaviour
     [SerializeField] public SO_Dialogue[] dialogues;
     [SerializeField] public Transform[] thingsToLookAt;
     [SerializeField] public CinemachineVirtualCamera virtualCamera;
-    [SerializeField] GameObject slider;
 
     private Transform childTransform;
     private Animator childAnimator;
@@ -42,8 +41,6 @@ public class ComfortingChildCutscene : MonoBehaviour
         companionAnimator = companion.GetComponent<Animator>();
         companionTransform = companion.transform;
         companionSpeechBubble = GameObject.Find("DialogueHandler").GetComponent<SpriteRenderer>();
-
-        slider.SetActive(false);
         pc.enabled = false;
         StartCoroutine(PlayCutscene());
     }

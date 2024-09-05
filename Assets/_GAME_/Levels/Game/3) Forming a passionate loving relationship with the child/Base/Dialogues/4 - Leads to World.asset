@@ -39,5 +39,5 @@ MonoBehaviour:
   option3: {fileID: 0}
   AnotherDialogue: {fileID: 0}
   nextScene:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: 
+    m_SceneAsset: {fileID: 102900000, guid: c29df2cd1b7b44581810f07dba8da777, type: 3}
+    m_SceneName: Scene1 - Derelict Home Outside

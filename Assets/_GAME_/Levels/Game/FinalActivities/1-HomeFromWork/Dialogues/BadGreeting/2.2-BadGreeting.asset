@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f88a3f4e97f4472e9240d7e6f9d70ae, type: 3}
+  m_Name: 2.2-BadGreeting
+  m_EditorClassIdentifier: 
+  conversationPoints: 0
+  actors: 000000000c00000000000000000000000c00000005000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Unbelievable!!!
+  - How was your day today honey?
+  - Isn't it obvious I had a horrible day
+  - I am just starving right now, do you have any food ready?
+  - Oh no honey, I forgot to make some food tonight
+  cameraShake: 
+  optionText:
+  - That's okay honey
+  - Are you serious !?
+  optionPoints: 
+  option0: {fileID: 11400000, guid: e5dc3a3ba25974c08908b6ec2b63b8ef, type: 2}
+  option1: {fileID: 11400000, guid: 77099e7ee63b447d6bb0909543c89a5b, type: 2}
+  option2: {fileID: 0}
+  option3: {fileID: 0}
+  AnotherDialogue: {fileID: 0}
+  nextScene:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 

@@ -1,22 +1,16 @@
 using UnityEngine;
 
-public class RewardSystem : MonoBehaviour
+public static class RewardSystem 
 {
-    public int secureAttachmentLevel;
-    public int maxSecureAttachment = 10;
+    public static int secureAttachmentLevel;
+    public static int maxSecureAttachment = 10;
     // Start is called before the first frame update
-    void Start()
+    static RewardSystem()
     {
-        secureAttachmentLevel = 5;
+        secureAttachmentLevel = 0;
+        maxSecureAttachment = 3;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void updatePoints(int amount)
+    public static void updatePoints(int amount)
     {
         secureAttachmentLevel += amount;
 

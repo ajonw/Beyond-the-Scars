@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: 5 - Ending
   m_EditorClassIdentifier: 
   conversationPoints: 0
-  actors: 
+  actors: 0200000002000000
   randomActorName: 
   randomActorPortrait: {fileID: 0}
-  dialogue: []
+  dialogue:
+  - Well done on restoring your emotional world
+  - Let us move on to the next set of exercises
   cameraShake: 
   optionText: []
   optionPoints: 
@@ -26,5 +28,5 @@ MonoBehaviour:
   option3: {fileID: 0}
   AnotherDialogue: {fileID: 0}
   nextScene:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: 
+    m_SceneAsset: {fileID: 102900000, guid: d33e4fade5f9c4655b9b48b2ca78493f, type: 3}
+    m_SceneName: Ex7

@@ -13,21 +13,12 @@ MonoBehaviour:
   m_Name: 4-Yes
   m_EditorClassIdentifier: 
   conversationPoints: 0
-  actors: 000000000200000002000000020000000200000002000000
+  actors: 000000000200000006000000
   randomActorName: 
   randomActorPortrait: {fileID: 0}
   dialogue:
   - Yes, I am ready to move on
   - Awesome!
-  - The second part of the exercise (7b) is called creating zest for life
-  - 'While looking in a mirror, imagine your image to be that of the child, then
-    begin to loudly sing your previously chosen song. As previously, increase
-
-    your
-    volume and begin to use your whole body.'
-  - You can do this exercise at your own time through out your day at different circumstance
-  - Singing your favourite song becomes a habit of yours, it becomes an effective
-    tool for enhancing positive affects and managing emotion
   cameraShake: 
   optionText: []
   optionPoints: 
@@ -35,7 +26,7 @@ MonoBehaviour:
   option1: {fileID: 0}
   option2: {fileID: 0}
   option3: {fileID: 0}
-  AnotherDialogue: {fileID: 0}
+  AnotherDialogue: {fileID: 11400000, guid: 19e5f661a65cb4d5ab993bb6740a6918, type: 2}
   nextScene:
     m_SceneAsset: {fileID: 0}
     m_SceneName: 

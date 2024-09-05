@@ -1,12 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
-using System.Text;
 using HuggingFace.API;
-using UnityEngine.InputSystem.Interactions;
 using Cinemachine;
 
 public class SpeechRecognition : MonoBehaviour
@@ -96,7 +93,7 @@ public class SpeechRecognition : MonoBehaviour
 
     private void StartRecording()
     {
-        clip = Microphone.Start(null, false, 10, 44100);
+        clip = Microphone.Start(null, false, 20, 44100);
         text.color = Color.red;
         text.text = "Recording...";
         recording = true;

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
@@ -7,47 +6,40 @@ public class ex7aCutscene : MonoBehaviour
 {
     [SerializeField] public GameObject adultPlayer;
     [SerializeField] public GameObject companion;
-    // [SerializeField] public GameObject companion;
+    [SerializeField] public SO_Dialogue[] dialogues;
+    [SerializeField] public Transform[] thingsToLookAt;
+    [SerializeField] public CinemachineVirtualCamera virtualCamera;
+    [SerializeField] public DialogueManager dialogueManager;
+    [SerializeField] public GameObject button;
     private Transform adultTransform;
     private Transform companionTransform;
-    // private Transform companionTransform;
     private Animator adultAnimator;
     private Animator companionAnimator;
-    // private Animator companionAnimator;
 
-    [SerializeField] public SO_Dialogue[] dialogues;
-
-    [SerializeField] public Transform[] thingsToLookAt;
-
-    [SerializeField] public CinemachineVirtualCamera virtualCamera;
-
-
-    [SerializeField] public DialogueManager dialogueManager;
     private float _moveSpeed = 3f;
     private Player_Controller _pc;
 
     private bool cutsceneStarted = false;
 
 
-
-    // Start is called before the first frame update
     void Start()
     {
-        // dialogueManager = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
+        dialogueManager = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
         adultTransform = adultPlayer.transform;
         adultAnimator = adultPlayer.GetComponent<Animator>();
         companionTransform = companion.transform;
         companionAnimator = companion.GetComponent<Animator>();
-        // companionTransform = companion.transform;
-        // companionAnimator = companion.GetComponent<Animator>();
         _pc = adultPlayer.GetComponent<Player_Controller>();
+
+        button.SetActive(false);
         StartCoroutine(PlayCutscene());
     }
 
     private IEnumerator PlayCutscene()
     {
         _pc.enabled = false;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(11.5f);
+        button.SetActive(true);
         LookRight(adultAnimator);
         LookLeft(companionAnimator);
         yield return new WaitForSeconds(0.4f);

@@ -21,9 +21,6 @@ public class DialogueManager : MonoBehaviour
     // Tranform types
     public SO_Actor[] transformTypes;
 
-    //Reward system
-    public RewardSystem rewardSystem;
-
     public NPCDialogue npcDialogue;
 
     // Current conversation dialogue object
@@ -331,8 +328,8 @@ public class DialogueManager : MonoBehaviour
         {
             currentConversation = currentConversation.option3;
         }
-        if (rewardSystem)
-            rewardSystem.updatePoints(currentConversation.conversationPoints);
+
+        RewardSystem.updatePoints(currentConversation.conversationPoints);
         stepNumber = 0;
         isOption = false;
         PlayDialogue();
@@ -494,6 +491,6 @@ public enum DialogueActors
     Friend2,
     Teacher,
     Father,
-    Son,
+    Daughter,
     Spouse
 };

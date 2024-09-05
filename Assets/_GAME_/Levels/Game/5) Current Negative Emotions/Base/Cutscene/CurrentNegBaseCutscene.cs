@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
@@ -7,13 +6,10 @@ public class CurrentNegBaseCutscene : MonoBehaviour
 {
     [SerializeField] public GameObject adultPlayer;
     [SerializeField] public GameObject companion;
-    // [SerializeField] public GameObject companion;
     private Transform adultTransform;
     private Transform companionTransform;
-    // private Transform companionTransform;
     private Animator adultAnimator;
     private Animator companionAnimator;
-    // private Animator companionAnimator;
 
     [SerializeField] public SO_Dialogue[] dialogues;
 
@@ -21,14 +17,11 @@ public class CurrentNegBaseCutscene : MonoBehaviour
 
     [SerializeField] public CinemachineVirtualCamera virtualCamera;
 
-
     public DialogueManager dialogueManager;
     private float _moveSpeed = 3f;
     private Player_Controller _pc;
 
     private bool cutsceneStarted = false;
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -108,7 +101,6 @@ public class CurrentNegBaseCutscene : MonoBehaviour
         animator.SetFloat("X", 0);
         animator.SetFloat("Y", -1);
     }
-
 
     private IEnumerator StartDialogue(int index)
     {

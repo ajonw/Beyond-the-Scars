@@ -1359,8 +1359,58 @@ PlayableDirector:
     value: {fileID: 1698190431}
   - key: {fileID: -3687284617326016315, guid: c426f5a46c8fa4f339cf02fb64ef6daf, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -3850448361554464025, guid: c426f5a46c8fa4f339cf02fb64ef6daf, type: 2}
+    value: {fileID: 689635932}
   m_ExposedReferences:
     m_References: []
+--- !u!1 &548340480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 548340481}
+  - component: {fileID: 548340482}
+  m_Layer: 0
+  m_Name: Destroyer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &548340481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548340480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1332208701}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &548340482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548340480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c095a7d5e68b47bca4a869593128fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyPrimaryMusic: 0
+  destroyPrimary2Music: 1
+  destroySecondaryMusic: 1
+  destroyTertiaryMusic: 1
 --- !u!1 &586691080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,8 +1672,9 @@ GameObject:
   m_Component:
   - component: {fileID: 689635931}
   - component: {fileID: 689635930}
+  - component: {fileID: 689635932}
   m_Layer: 0
-  m_Name: BackgroundSounds
+  m_Name: BGMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1639,9 +1690,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1affa69086c934bcdb2792bb8c6f0774, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.539
+  m_Volume: 0.278
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1740,6 +1791,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &689635932
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689635929}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &700362373
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,8 +1955,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16.190002, y: 9.489998}
-  m_SizeDelta: {x: 2285.87, y: 1365.03}
+  m_AnchoredPosition: {x: 34.11, y: 6.9000015}
+  m_SizeDelta: {x: 2836.9, y: 1703.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &771729859
 Animator:
@@ -3850,7 +3922,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.4375
+  orthographic size: 9.052083
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5324,7 +5396,6 @@ MonoBehaviour:
   transformTypes:
   - {fileID: 11400000, guid: 51a3d40dde3854cb88f59f541f5f1e94, type: 2}
   - {fileID: 11400000, guid: 516a45c979f9c44a5bfff88a15b203c3, type: 2}
-  rewardSystem: {fileID: 0}
   npcDialogue: {fileID: 0}
   actorsSO:
   - {fileID: 11400000, guid: 516a45c979f9c44a5bfff88a15b203c3, type: 2}
@@ -5412,6 +5483,7 @@ Transform:
   m_Children:
   - {fileID: 1243350523}
   - {fileID: 176393855}
+  - {fileID: 548340481}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339601113

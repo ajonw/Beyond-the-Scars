@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
@@ -7,23 +6,19 @@ public class ComfortBasementCutscene : MonoBehaviour
 {
     [SerializeField] public GameObject adultPlayer;
     [SerializeField] public GameObject childPlayer;
-    [SerializeField] public Transform centreScreen;
     [SerializeField] public BeginComfortSession comfortSession;
 
     [SerializeField] public SpeechRecognition speechRecognition;
-    private Transform adultTransform;
-    private Transform childTransform;
-    private Animator adultAnimator;
-    private Animator childAnimator;
-
-
     [SerializeField] public SO_Dialogue[] dialogues;
 
     [SerializeField] public Transform[] thingsToLookAt;
 
     [SerializeField] public CinemachineVirtualCamera virtualCamera;
 
-
+    private Transform adultTransform;
+    private Transform childTransform;
+    private Animator adultAnimator;
+    private Animator childAnimator;
     private DialogueManager dialogueManager;
     private float _moveSpeed = 3f;
     private Player_Controller _pc;
@@ -60,8 +55,7 @@ public class ComfortBasementCutscene : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, _moveSpeed * Time.deltaTime);
             yield return null;
         }
-
-        transform.position = targetPosition; // Ensure the player reaches the exact position
+        transform.position = targetPosition;
         yield return null;
     }
 
