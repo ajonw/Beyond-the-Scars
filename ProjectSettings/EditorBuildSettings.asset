@@ -12,27 +12,6 @@ EditorBuildSettings:
     path: Assets/_GAME_/Levels/Game/1) Introduction to SAT/Scenes/IntroScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/_GAME_/Levels/OtherScenes/OldScenes/CharacterCreator.unity
-    guid: 4160499b38e56482bbe53815cc055ae5
-  - enabled: 1
-    path: Assets/_GAME_/Levels/OtherScenes/OldScenes/IntroCutscene.unity
-    guid: 32cc51e7c7e68431798e598f4c66664c
-  - enabled: 1
-    path: Assets/_GAME_/Levels/OtherScenes/OldScenes/Scene1-Outdoor.unity
-    guid: e98721871f85c4e488c6864db85fc20e
-  - enabled: 1
-    path: Assets/_GAME_/Levels/OtherScenes/OldScenes/Scene2-PlayerHome-FirstFloor.unity
-    guid: 59c3c9c668115460e85a8dec8f0659f6
-  - enabled: 1
-    path: Assets/_GAME_/Levels/OtherScenes/OldScenes/Scene3-PlayerHome-SecondFloor.unity
-    guid: 983d8d19480944f1088c208f02e09a22
-  - enabled: 1
-    path: Assets/_GAME_/Levels/OtherScenes/OldScenes/Scene4-PlayerHome-PlayerRoom.unity
-    guid: d8c4dde0ef1034bfba8593a497aabde1
-  - enabled: 1
-    path: Assets/_GAME_/Levels/OtherScenes/PersistentGameplay.unity
-    guid: 11d9c5ceb5d7a4ce6812418d51a78a55
-  - enabled: 1
     path: Assets/_GAME_/Levels/Game/2) Connecting compassionately with child/Exercise1
       - Childhood Photos/NegativeMemories/1. The Neglectful Home/Scene 2 - Indoor
       Home/Scene/Scene2 - Indoor Home.unity
