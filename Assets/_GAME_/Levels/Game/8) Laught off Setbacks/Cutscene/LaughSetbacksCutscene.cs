@@ -50,9 +50,9 @@ public class LaughSetbacksCutscene : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         yield return StartCoroutine(StartDialogue(1));
         yield return new WaitForSeconds(0.5f);
-        vaseImage.SetActive(true);
+        vaseImage.SetActive(false);
         yield return new WaitForSeconds(1f);
-        yield return StartCoroutine(StartDialogue(1));
+        yield return StartCoroutine(StartDialogue(2));
         LookDown(adultAnimator);
         LookDown(companionAnimator);
         _pc.enabled = true;

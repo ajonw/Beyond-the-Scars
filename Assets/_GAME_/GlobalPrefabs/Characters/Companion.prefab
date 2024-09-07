@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1268199289363978006}
   - component: {fileID: 2918267414279399053}
   - component: {fileID: 3934064419344556700}
-  - component: {fileID: 4037092552919541514}
   - component: {fileID: 7213590238401237447}
   m_Layer: 7
   m_Name: Companion
@@ -161,18 +160,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &4037092552919541514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3946669608290585311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d438a90feda4345f8ab99b6023701916, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &7213590238401237447
 Animator:
   serializedVersion: 5
@@ -295,6 +282,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   conversation:
   - {fileID: 11400000, guid: 0656df42348504bffad27c6b77304b5c, type: 2}
+  instructionText: {fileID: 0}
+  onTriggerBubble: 1
 --- !u!61 &6278957710488696138
 BoxCollider2D:
   m_ObjectHideFlags: 0

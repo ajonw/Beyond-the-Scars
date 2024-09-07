@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1-IntroNature
   m_EditorClassIdentifier: 
   conversationPoints: 0
-  actors: 0200000002000000020000000200000002000000020000000200000002000000
+  actors: 02000000020000000200000002000000020000000200000002000000
   randomActorName: 
   randomActorPortrait: {fileID: 0}
   dialogue:
@@ -25,9 +25,6 @@ MonoBehaviour:
     beauty as you have never
 
     previously experienced'
-  - Repeat this process, including with other aspects of nature  like the sky, stars,
-    plants, rivers, sea, your favourite animal, until you feel you have developed
-    an attachment to nature that helps regulate your emotions.
   - Repeat this process, including with other aspects of nature  like the sky, stars,
     plants, rivers, sea, your favourite animal, until you feel you have developed
     an attachment to nature that helps regulate your emotions.

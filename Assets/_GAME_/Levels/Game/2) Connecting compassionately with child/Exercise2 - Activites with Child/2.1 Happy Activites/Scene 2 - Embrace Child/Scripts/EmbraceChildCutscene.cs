@@ -6,19 +6,13 @@ using UnityEngine;
 public class EmbraceChildCutscene : MonoBehaviour
 {
     [SerializeField] public GameObject adultChildObject;
-    private Transform adultChildTransform;
-    private Animator adultChildAnimator;
     [SerializeField] public SO_Dialogue[] dialogues;
-
     [SerializeField] public Transform[] thingsToLookAt;
-
     [SerializeField] public CinemachineVirtualCamera virtualCamera;
 
-
+    private Transform adultChildTransform;
+    private Animator adultChildAnimator;
     private DialogueManager dialogueManager;
-    private float _moveSpeed = 3f;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +35,6 @@ public class EmbraceChildCutscene : MonoBehaviour
         adultChildAnimator.SetBool("isHugging", true);
         yield return new WaitForSeconds(1.5f);
         yield return StartCoroutine(StartDialogue(1));
-
         yield return new WaitForSeconds(1f);
     }
 

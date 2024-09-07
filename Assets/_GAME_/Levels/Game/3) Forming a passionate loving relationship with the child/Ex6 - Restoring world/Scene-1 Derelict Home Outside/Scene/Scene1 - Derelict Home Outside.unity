@@ -7983,7 +7983,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dcf3caaf1c6684f8394c28b89d308397, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.452
+  m_Volume: 0.181
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -27051,7 +27051,7 @@ Transform:
   m_GameObject: {fileID: 1135363542}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.8971405, y: -2.6875405, z: -9.920387}
+  m_LocalPosition: {x: 10.80637, y: -4.5621653, z: -9.920387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27202,7 +27202,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 11.0625
+  orthographic size: 9.052083
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -27337,6 +27337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyPrimaryMusic: 1
+  destroyPrimary2Music: 1
   destroySecondaryMusic: 0
   destroyTertiaryMusic: 0
 --- !u!1 &1463316952

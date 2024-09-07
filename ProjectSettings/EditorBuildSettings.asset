@@ -154,7 +154,7 @@ EditorBuildSettings:
       the child/Ex6 - Restoring world/Scene4-NewInsideHome/Scene/Scene4-NewInsideHome.unity
     guid: 58f48a840d0844a0f87317c80c835f77
   - enabled: 1
-    path: Assets/_GAME_/Levels/Game/4) Joyful Love for Our Child/Ex7a/Scene/Ex7.unity
+    path: Assets/_GAME_/Levels/Game/4) Joyful Love for Our Child/Ex7/Scene/Ex7.unity
     guid: d33e4fade5f9c4655b9b48b2ca78493f
   - enabled: 1
     path: Assets/_GAME_/Levels/Game/4) Joyful Love for Our Child/Ex8 - Enjoying nature/Scene/Ex8.unity
@@ -214,4 +214,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_GAME_/Levels/Game/FinalActivities/5-ChildCrying/Scene/Scene1-ChildCrying.unity
     guid: 8ec1a748106be489d88af47fd716b8d9
+  - enabled: 1
+    path: Assets/_GAME_/Levels/Game/FinalActivities/EndingResult/Scene/EndingScene.unity
+    guid: 1fc84ba24f9264991807a53ba07f12d6
   m_configObjects: {}

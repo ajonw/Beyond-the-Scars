@@ -6,19 +6,16 @@ using UnityEngine;
 public class ConsoleHugCutscene : MonoBehaviour
 {
     [SerializeField] public GameObject adultChild;
-    private Transform adultChildTransform;
-    private Animator adultChildAnimation;
+
     [SerializeField] public SO_Dialogue[] dialogues;
 
     [SerializeField] public Transform[] thingsToLookAt;
 
     [SerializeField] public CinemachineVirtualCamera virtualCamera;
 
-
+    private Transform adultChildTransform;
+    private Animator adultChildAnimation;
     private DialogueManager dialogueManager;
-    private Player_Controller pc;
-    private float _moveSpeed = 3f;
-
 
     // Start is called before the first frame update
     void Start()

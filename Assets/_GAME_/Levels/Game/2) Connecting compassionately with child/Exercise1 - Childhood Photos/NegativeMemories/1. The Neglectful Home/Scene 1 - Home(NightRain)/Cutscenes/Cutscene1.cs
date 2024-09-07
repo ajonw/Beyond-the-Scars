@@ -93,4 +93,3 @@ public class Cutscene1 : MonoBehaviour
             yield return null;
     }
 }
-

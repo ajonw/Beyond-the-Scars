@@ -22,9 +22,6 @@ public class Player_Controller : MonoBehaviour
     private Vector2 _moveDir = Vector2.zero;
     private List<RaycastHit2D> _castCollisions = new List<RaycastHit2D>();
 
-
-
-
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -50,7 +47,6 @@ public class Player_Controller : MonoBehaviour
     {
         _moveDir = movementValue.Get<Vector2>();
     }
-
 
     public void MovementUpdate(Vector2 _moveDir)
     {

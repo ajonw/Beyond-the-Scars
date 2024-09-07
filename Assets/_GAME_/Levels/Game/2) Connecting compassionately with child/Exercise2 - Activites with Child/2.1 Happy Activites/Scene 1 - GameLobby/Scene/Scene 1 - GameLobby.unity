@@ -2255,6 +2255,8 @@ PlayableDirector:
     value: {fileID: 1863683397}
   - key: {fileID: -3687284617326016315, guid: c426f5a46c8fa4f339cf02fb64ef6daf, type: 2}
     value: {fileID: 1249592751}
+  - key: {fileID: -3850448361554464025, guid: c426f5a46c8fa4f339cf02fb64ef6daf, type: 2}
+    value: {fileID: 1249592751}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &492738779
@@ -8736,7 +8738,7 @@ GameObject:
   - component: {fileID: 1249592753}
   - component: {fileID: 1249592752}
   - component: {fileID: 1249592751}
-  - component: {fileID: 1249592754}
+  - component: {fileID: 1249592755}
   m_Layer: 0
   m_Name: BG2Music
   m_TagString: Untagged
@@ -8876,7 +8878,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1249592754
+--- !u!114 &1249592755
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8885,7 +8887,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1249592750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d414ba64cf881471bb76402b8d06b22d, type: 3}
+  m_Script: {fileID: 11500000, guid: 084788ddc612d4d6cad70fc2c5c0efb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1266115736
@@ -9658,7 +9660,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 11.0625
+  orthographic size: 8.4375
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -98044,6 +98046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyPrimaryMusic: 1
+  destroyPrimary2Music: 1
   destroySecondaryMusic: 0
   destroyTertiaryMusic: 0
 --- !u!1 &1886558289
@@ -98441,7 +98444,6 @@ GameObject:
   - component: {fileID: 1922999074}
   - component: {fileID: 1922999073}
   - component: {fileID: 1922999072}
-  - component: {fileID: 1922999071}
   - component: {fileID: 1922999070}
   m_Layer: 7
   m_Name: Companion
@@ -98487,18 +98489,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1922999071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1922999068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d438a90feda4345f8ab99b6023701916, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &1922999072
 Rigidbody2D:
   serializedVersion: 4

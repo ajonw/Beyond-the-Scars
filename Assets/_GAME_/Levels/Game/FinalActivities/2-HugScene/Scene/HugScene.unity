@@ -2765,7 +2765,7 @@ Transform:
   m_GameObject: {fileID: 947692611}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.711834, y: -4.659708, z: -9.920387}
+  m_LocalPosition: {x: 2.171834, y: -3.8397083, z: -9.920387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2916,7 +2916,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.354167
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2993,7 +2993,7 @@ Transform:
   m_GameObject: {fileID: 1116891928}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28816605, y: -4.659708, z: -9.920387}
+  m_LocalPosition: {x: -3.828166, y: -3.8397083, z: -9.920387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4229,7 +4229,6 @@ MonoBehaviour:
   transformTypes:
   - {fileID: 11400000, guid: 51a3d40dde3854cb88f59f541f5f1e94, type: 2}
   - {fileID: 11400000, guid: 516a45c979f9c44a5bfff88a15b203c3, type: 2}
-  rewardSystem: {fileID: 0}
   npcDialogue: {fileID: 0}
   actorsSO:
   - {fileID: 11400000, guid: 516a45c979f9c44a5bfff88a15b203c3, type: 2}
@@ -49999,11 +49998,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4083050436788858987, guid: 4d0baa93d3aed4e5fa8226371bae13c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19
+      value: -3.73
       objectReference: {fileID: 0}
     - target: {fileID: 4083050436788858987, guid: 4d0baa93d3aed4e5fa8226371bae13c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.83
+      value: -5.01
       objectReference: {fileID: 0}
     - target: {fileID: 4083050436788858987, guid: 4d0baa93d3aed4e5fa8226371bae13c1, type: 3}
       propertyPath: m_LocalPosition.z

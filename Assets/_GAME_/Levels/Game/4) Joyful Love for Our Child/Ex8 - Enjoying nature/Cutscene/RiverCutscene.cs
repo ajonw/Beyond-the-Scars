@@ -38,7 +38,7 @@ public class RiverCutscene : MonoBehaviour
     private IEnumerator PlayCutscene()
     {
         _pc.enabled = false;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.2f);
         StopMoving(adultAnimator);
         LookUp(adultAnimator);
         yield return new WaitForSeconds(1f);

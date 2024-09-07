@@ -7,24 +7,16 @@ public class PlayChildCutscene : MonoBehaviour
 {
     [SerializeField] public GameObject adultPlayer;
     [SerializeField] public GameObject childPlayer;
-
     [SerializeField] public RPSManager gameManager;
+    [SerializeField] public SO_Dialogue[] dialogues;
+    [SerializeField] public Transform[] thingsToLookAt;
+    [SerializeField] public CinemachineVirtualCamera virtualCamera;
+
     private Transform adultTransform;
     private Transform childTransform;
     private Animator adultAnimator;
     private Animator childAnimator;
-
-    [SerializeField] public SO_Dialogue[] dialogues;
-
-    [SerializeField] public Transform[] thingsToLookAt;
-
-    [SerializeField] public CinemachineVirtualCamera virtualCamera;
-
-
     private DialogueManager dialogueManager;
-    private float _moveSpeed = 3f;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -49,9 +41,7 @@ public class PlayChildCutscene : MonoBehaviour
         //Start dialogue
         yield return StartCoroutine(StartDialogue(0));
         yield return new WaitForSeconds(0.5f);
-
         gameManager.StartGame();
-
         yield return new WaitForSeconds(1f);
     }
 
