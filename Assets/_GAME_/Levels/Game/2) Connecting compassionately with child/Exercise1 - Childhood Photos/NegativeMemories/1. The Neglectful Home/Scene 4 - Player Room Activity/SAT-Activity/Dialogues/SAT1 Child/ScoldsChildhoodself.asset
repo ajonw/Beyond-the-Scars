@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: ScoldsChildhoodself
   m_EditorClassIdentifier: 
   conversationPoints: 0
-  actors: 000000000000000000000000
+  actors: 00000000000000000000000001000000
   randomActorName: 
   randomActorPortrait: {fileID: 0}
   dialogue:
   - Stop being such a coward!
   - You deserve what's happening to you.
   - I do not care about you!
+  - That is so mean of you to say.
   cameraShake: 
   optionText: []
   optionPoints: 
@@ -29,5 +30,5 @@ MonoBehaviour:
   option3: {fileID: 0}
   AnotherDialogue: {fileID: 0}
   nextScene:
-    m_SceneAsset: {fileID: 0}
-    m_SceneName: 
+    m_SceneAsset: {fileID: 102900000, guid: 842e512c872964d179ce2fb437c0e316, type: 3}
+    m_SceneName: BaseSceneEx1
